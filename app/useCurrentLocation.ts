@@ -16,6 +16,7 @@ export const useCurrentLocation = () => {
                         resolve({ latitude: position.coords.latitude, longitude: position.coords.longitude });
                     },
                     () => {
+
                         setLocation(AzadiSquareLocation);
                         resolve(AzadiSquareLocation);
                     },
